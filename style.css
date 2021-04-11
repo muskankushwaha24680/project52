@@ -1,0 +1,110 @@
+.menu{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:white;
+}
+ 
+body{
+margin: 0px;
+    background-color: whitesmoke;
+}
+
+
+
+
+.word{
+    color:rgb(240, 157, 240);
+    position: absolute;
+    top: 10px;
+    left: 400px;
+    font-weight: 1000;
+    font-size: 50px;
+    font-style: italic;
+  
+   transform: translate(-10%,-30%);
+}
+
+.steps{
+color:white;
+position: absolute;
+bottom: 280px;
+left: 10px;
+text-align: center;
+font-style: oblique;
+font-size: 23px;
+}
+
+.grid img{
+    border: 2px solid black;
+    border-radius: 50px;
+    
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 4%;
+}
+
+.origami{
+border-color: black;
+border: solid;
+padding: 2%;
+    border-radius: 20px;
+    background-color: white;
+    width: 310px;
+    font-family: fantasy;
+
+   
+}
+
+body{
+    background-color:seashell;
+}
+
+a:link{
+    color:coral
+}
+
+a:visited{
+    color:darkgreen
+}
+
+.origami:hover{
+    transform:scale(1.2);
+}
+
+.origami img{
+    position:relative;
+}
+
+.origami h3{
+position: absolute;
+top:5px;
+left:70px;
+font-size: 30px;
+}
+
+.origami:hover h3{
+    opacity:1;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.footer{
+    display:flex;
+    justify-content: space-between;
+    background-color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 400;
+    color:white;
+}
